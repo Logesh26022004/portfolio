@@ -363,7 +363,7 @@ section .title::after{
     background: crimson;
 }
 .skills-content .right .html::before{
-    width: 90%;
+    width: 80%;
 }
 .skills-content .right .css::before{
     width: 60%;
@@ -378,9 +378,9 @@ section .title::after{
     width: 70%;
 }
 
-/* teams section styling */
+/* project section styling */
 .teams .title::after{
-    content: "who with me";
+    content: "View My Projects";
 }
 .teams .carousel .card{
     background: #222;
@@ -390,6 +390,7 @@ section .title::after{
     overflow: hidden;
     transition: all 0.3s ease;
 }
+
 .teams .carousel .card:hover{
     background: crimson;
 }
@@ -399,6 +400,7 @@ section .title::after{
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
+    
 }
 .teams .carousel .card:hover .box{
     transform: scale(1.05);
@@ -682,17 +684,19 @@ footer span a:hover{
 .project-gallery {
     display: flex;
     overflow-x: auto;
-    gap: 20px;
-    padding: 20px 0;
+    gap: 50px;
+    padding: 25px 0;
+    
 }
 .project-card {
     flex: 0 0 auto;
-    width: 300px;
+    width: 345px;
     border-radius: 15px;
     overflow: hidden;
     cursor: pointer;
     transition: transform 0.3s ease;
     position: relative;
+    height: 250px;
 }
 .project-card:hover {
     transform: scale(1.05);
